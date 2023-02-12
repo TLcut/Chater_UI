@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+.main-navbar{
+    flex-grow: 1;
+    background-color: rgb(45, 45, 45);
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    flex:1 1 0;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    list-style-type: none;
+    text-align: center;
+    padding: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(235, 235, 235);
+    font-size: 24px;
+    font-weight: bold;
+}
+nav ul li:hover{
+    background-color: rgb(128, 128, 128);
+}
+.main{
+    flex-grow: 2;
+    display: flex;
+    flex-flow: row;
+    height: 100%;
+}
+.main .Chatbar{
+    flex-grow: 5;
+}
+
+.main .Roombox{
+    flex-grow: 1;
+}
+.Room-nav{
+    height: 100%;
+}
+.Room-nav ul{
+    display: flex;
+    flex-flow: column;
+    background-color: black;
+}
+.Room-nav li{
+    flex-grow: 1;
+    padding: 15px;
+    background-color: rgb(76, 76, 76);
+}
+.Room-nav li a{
+    font-size: 20px;
+}
+.msg-nav {
+    height: 100%;
+}
+.message ul{
+    display: flex;
+    flex-flow: column;
+}
+.send-box{
+    text-align: center;
+}
+.send-box ul{
+    display: flex;
+    flex-flow: row;
+}
+.send-box li{
+    flex-grow: 4;
+}
+.send-box{
+    font-size: 24px;
+    font-weight: bold;
+
+}
+.send-box .type{
+    width: 100%;
+    height: 100%;
+    font-size: 24px;
+}
+.send-box .send-btn{
+    flex-grow: 1;
+    background-color: rgb(63, 63, 63);
+}
+.message li{
+    background-color: rgb(124, 124, 124);
+}
+.Roombox{
+    background-color: rgb(176, 176, 176);
+}
